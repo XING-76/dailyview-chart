@@ -1,0 +1,23 @@
+.recharts-cartesian-axis-tick line {
+  stroke: none;
+}
+
+.recharts-legend-item-text {
+  color: #000!important;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper-chart {
+    overflow-x: scroll;
+    margin: 1rem !important;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .select-bar {
+    display: none!important;
+  }
+  .mobile-select-bar {
+    display: block!important;
+  }
+}
